@@ -1,0 +1,9 @@
+{
+  "name": "standalone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@hardfist/bundle": "^1.1.1@latest"
+  }
+}

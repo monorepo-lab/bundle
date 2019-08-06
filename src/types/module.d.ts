@@ -1,0 +1,5 @@
+declare module 'output-file-sync'
+declare module 'rollup-plugin-json'
+declare module 'rollup-plugin-sourcemaps'
+declare module 'rollup-plugin-visualizer'
+declare module 'fs-readdir-recursive'

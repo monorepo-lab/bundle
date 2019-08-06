@@ -1,0 +1,25 @@
+{
+  "packages": ["packages/*"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "version": {
+      "changelog": true,
+      "conventionalCommits": true,
+      "message": "chore: publish",
+      "push": false
+    },
+    "publish": {
+      "allowBranch": "master",
+      "preDistTag": "next",
+      "ignoreScripts": true,
+      "verifyAccess": false,
+      "verifyRegistry": false
+    }
+  },
+  "ignoreChanges": [
+    "*.md",
+    "**/__tests__/**"
+  ]
+}
